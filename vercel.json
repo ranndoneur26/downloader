@@ -1,5 +1,8 @@
 {
   "functions": {
-    "api/download.py": { "maxDuration": 60 }
-  }
+    "api/index.py": { "maxDuration": 60 }
+  },
+  "rewrites": [
+    { "source": "/api/descargar", "destination": "/api/index" }
+  ]
 }
